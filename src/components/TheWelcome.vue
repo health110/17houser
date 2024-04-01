@@ -12,7 +12,7 @@ import WaterBasinIcon from './icons/IconWaterBasin.vue'
     <RouterLink to="door" class="home-box__item">
       <WelcomeItem>
         <template #icon>
-          <DoorIcon />
+          <!-- <DoorIcon /> -->
         </template>
         <template #heading>门</template>
       </WelcomeItem>
@@ -20,7 +20,7 @@ import WaterBasinIcon from './icons/IconWaterBasin.vue'
     <RouterLink to="/cupboard" class="home-box__item">
       <WelcomeItem>
         <template #icon>
-          <CupboardIcon />
+          <!-- <CupboardIcon /> -->
         </template>
         <template #heading>柜子</template>
       </WelcomeItem>
@@ -28,7 +28,7 @@ import WaterBasinIcon from './icons/IconWaterBasin.vue'
     <RouterLink to="/skirtingLine" class="home-box__item">
       <WelcomeItem>
         <template #icon>
-          <SkirtingLineIcon />
+          <!-- <SkirtingLineIcon /> -->
         </template>
         <template #heading>踢脚线</template>
       </WelcomeItem>
@@ -36,7 +36,7 @@ import WaterBasinIcon from './icons/IconWaterBasin.vue'
     <RouterLink to="/waterBasin" class="home-box__item">
       <WelcomeItem>
         <template #icon>
-          <WaterBasinIcon />
+          <!-- <WaterBasinIcon /> -->
         </template>
         <template #heading>洗菜盆</template>
       </WelcomeItem>
