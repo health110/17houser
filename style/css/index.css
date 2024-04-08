@@ -2,11 +2,14 @@ html {
   height: 100%;
 }
 
-
-
 .pre-space pre {
   white-space: pre-wrap !important;
-  font-family: PingFang-SC-Regular, Helvetica Neue, Helvetica, microsoft yahei, sans-serif;
+  font-family:
+    PingFang-SC-Regular,
+    Helvetica Neue,
+    Helvetica,
+    microsoft yahei,
+    sans-serif;
 }
 
 html,
@@ -56,7 +59,9 @@ input,
 sbutton,
 select,
 textarea {
-  font-family: microsoft yahei, sans-serif;
+  font-family:
+    microsoft yahei,
+    sans-serif;
 }
 
 body {
@@ -135,11 +140,13 @@ summary {
 }
 
 img,
-a img {
+a img,
+video {
   border: 0;
 }
 
-img {
+img,
+video {
   max-width: 100%;
 }
 
@@ -148,14 +155,6 @@ button {
   border: none;
   outline: none;
 }
-
-
-
-
-
-
-
-
 
 /* 去掉点击后Android边框和IOS的默认背景 */
 
@@ -173,18 +172,6 @@ input::-webkit-input-placeholder {
   color: #999;
 }
 
-
-
-
-
-
-
-
-
-
 .fs0 {
   font-size: 0;
 }
-
-
-
